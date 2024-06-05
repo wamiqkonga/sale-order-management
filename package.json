@@ -1,5 +1,6 @@
 {
   "name": "sale-order-management",
+  "homepage": "https://wamiqkonga.github.io/sale-order-management",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +15,6 @@
     "chakra-multiselect": "^0.4.13",
     "chakra-react-select": "^4.7.6",
     "framer-motion": "^11.2.9",
-    "gh-pages": "^6.1.1",
     "primereact": "^10.6.6",
     "react": "^18.3.1",
     "react-datepicker": "^6.9.0",
@@ -30,8 +30,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

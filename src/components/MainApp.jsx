@@ -77,9 +77,9 @@ const MainApp = () => {
               </Thead>
               <Tbody>
                 {activeOrders.length > 0 ? (
-                  activeOrders.map(order => (
-                    <Tr key={order.id}>
-                      <Td>{order.id}</Td>
+                  activeOrders.map((order , indx )=> (
+                    <Tr key={indx}>
+                      <Td>{indx+1}</Td>
                       <Td>
                         <HStack spacing="3">
                           <Avatar size="xs" name={order.customer_name} />
