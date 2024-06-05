@@ -12,6 +12,9 @@ export const AuthProvider = ({ children }) => {
       setIsAuthenticated(true);
       navigate('/app');
     }
+    else{
+      alert("Incorect Username Or Password ")
+    }
   };
 
   const logout = () => {
