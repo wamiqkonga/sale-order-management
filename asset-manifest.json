@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc3d9745.css",
-    "main.js": "/static/js/main.9c6ab41a.js",
-    "index.html": "/index.html",
-    "main.dc3d9745.css.map": "/static/css/main.dc3d9745.css.map",
-    "main.9c6ab41a.js.map": "/static/js/main.9c6ab41a.js.map"
+    "main.css": "/sale-order-management/static/css/main.dc3d9745.css",
+    "main.js": "/sale-order-management/static/js/main.9c6ab41a.js",
+    "index.html": "/sale-order-management/index.html",
+    "main.dc3d9745.css.map": "/sale-order-management/static/css/main.dc3d9745.css.map",
+    "main.9c6ab41a.js.map": "/sale-order-management/static/js/main.9c6ab41a.js.map"
   },
   "entrypoints": [
     "static/css/main.dc3d9745.css",
